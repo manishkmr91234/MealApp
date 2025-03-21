@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Card = ({detail}) => {
-    console.log(detail)
+    //console.log(detail)
   return (
     <div className='meals'>
     {!detail ? "" :
