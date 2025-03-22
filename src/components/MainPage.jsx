@@ -16,6 +16,7 @@ const MainPage = () => {
       const get = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
       let res = await get.json()
       setData(res.meals)
+      setmessage("")
     }
     
   }

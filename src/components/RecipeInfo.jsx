@@ -15,9 +15,9 @@ const RecipeInfo = () => {
         getrecipe()
     }
   return (
-  <div>
+  <>
     
-        {!info ? "Dataa not found" : 
+        { !info ? "Data not found" : 
         <div className='mealInfo'>
         <img src={info.strMealThumb}/>
         <div className='info'>
@@ -28,8 +28,10 @@ const RecipeInfo = () => {
         </div>
       </div>
     }
-  </div>
+  </>
   )
 }
 
 export default RecipeInfo
+
+
